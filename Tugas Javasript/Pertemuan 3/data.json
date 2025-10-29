@@ -1,0 +1,15 @@
+[
+	{
+		"id" :1,
+		"nama" : "Eric Wiryawan Wijaya",
+		"alamat" : "Medan",
+		"hobi" : "Bermain Basket",
+		"tgl_lahir" : "25-05-2006",
+		"agama" : "Buddha",
+		"nim" : "2403311704",
+		"pekerjaan" : "Pelajar",
+		"email" : "eric@gmail.com",
+		"kewarganegaraan" : "WNI"
+	}
+]
+		

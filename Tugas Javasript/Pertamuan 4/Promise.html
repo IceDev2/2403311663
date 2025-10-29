@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="hasil"></div>
+
+  <script>
+    let nugas = new Promise((resolve,reject) =>{
+      let mood = true;
+
+      if(mood) {
+        resolve("Otw mengerjakan tugas");
+      } else {
+        reject("Lagi malasssss.....");
+      }
+
+    });
+
+    nugas
+      .then(hasil => {
+        console.log("Horeee "+hasil);
+      })
+      .catch(alasan => {
+        console.log("YAhhhhh... " + alasan)
+      })
+  </script>
+</body>
+</html>
